@@ -1,3 +1,26 @@
+@media print {
+  * {
+    display: none;
+    opacity: 0;
+    background: #fff;
+  }
+
+  img {
+    display: none;
+    opacity: 0;
+    background: #fff;
+  }
+}
+
+.protect{
+  pointer-events:none;
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -moz-touch-callout:none;
+  -moz-user-select:none;
+  touch-callout:none;
+  user-select:none;
+}
 ul[data-bsp-ul-index] {
           padding:0 0 0 0;
           margin:0 0 40px 0;
@@ -61,7 +84,7 @@ ul[data-bsp-ul-index] li {
 
 #bsPhotoGalleryModal a.bsp-controls img {
   width: 20px;
-  height: 35px;  
+  height: 35px;
 }
 a.bsp-controls,
 a.bsp-controls:visited,
@@ -133,4 +156,8 @@ a.bsp-controls:hover {
   .bspImgWrapper {
     height: 150px;
   }
+}
+
+.protect img{
+  height:100px;
 }
