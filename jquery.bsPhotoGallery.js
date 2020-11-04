@@ -160,7 +160,7 @@
           $(this).attr('data-bsp-li-index', x);
        
           
-          theImg.wrap('<div class="bspImgWrapper" style="background:url(\''+src+'\'); pointer-events: none;"></div>');
+          theImg.wrap('<div class="bspImgWrapper" style="background:url(\''+src+'\'); "></div>');
           theText.addClass('bspText');
 
           if(settings.shortText === true){
@@ -193,6 +193,11 @@
     'hasModal' : true, 
     'shortText' : true
   }
+
+    $(function() {
+        var img = $("img");
+        img.css({"pointer-events":"none"});
+    });
 
 
 }(jQuery));
