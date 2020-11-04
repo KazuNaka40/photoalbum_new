@@ -194,10 +194,8 @@
     'shortText' : true
   }
 
-    $(function() {
-        var img = $("img");
-        img.css({"pointer-events":"none"});
-    });
+  var img = $("img");
+  img.css({"pointer-events":"none"});
 
 
 }(jQuery));
