@@ -197,5 +197,4 @@
   var img = $("img");
   img.css({"pointer-events":"none"});
 
-
 }(jQuery));
