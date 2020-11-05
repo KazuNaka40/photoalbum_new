@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName “sample”
-AuthUserFile "/Users/nakazatokazuto/uniPhotoLibrary/.htpasswd"
-require valid-user
